@@ -1,0 +1,150 @@
+:root {
+    --BG-500: #252A2D;
+    --Gray-300: #4D4D4D;
+    --BG-400: #161B1A;
+    --BG-300: #26302F;
+}
+
+
+main {
+    width: 100%;
+    height: calc(100% - 104px);
+    background-color: red;
+    overflow-y: auto;
+    background-color: var(--BG-500);
+}
+
+/* Chrome, Edge, and Safari */
+main::-webkit-scrollbar {
+    width: 1px;
+}
+
+main::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+MenuConfigsmain::-webkit-scrollbar-thumb {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+body {
+    background-color: var(--BG-500);
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--BG-500);
+    border-bottom: 2px solid var(--Gray-300);
+}
+
+.btnMenu {
+    background-color: transparent;
+    border: none;
+}
+.logoBox img{
+    width: 150px;
+    object-fit: fill;
+}
+header img {
+    width: 35px;
+    height: 35px;
+    object-fit: fill;
+    filter: invert(1);
+}
+
+.menuBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid var(--Gray-300);
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: var(--BG-500);
+}
+
+.menuBottom ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: opacity(0.8);
+}
+
+.btnBottom {
+    width: 35px;
+    filter: invert(1);
+}
+
+.d-none {
+    display: none;
+}
+
+
+
+
+.MenuConfigs {
+    transition: all 0.3s;
+    margin-left: 150%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.openMenu{
+    margin-left: 0;
+ }
+ 
+ .CloseModal{
+    margin-left: 150%;
+ }
+
+.MenuConfigs ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardConfig {
+    font-size: 24px;
+    display: flex;
+    width: 100%;
+    background-color: var(--BG-400);
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.cardConfig:hover {
+    border: 1px solid var(--BG-300);
+}
+
+.imgBox img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
