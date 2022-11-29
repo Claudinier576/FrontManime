@@ -1,0 +1,26 @@
+.Modal{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.823);
+}
+.ModalCard{
+    width: 90%;
+    height: calc(90% - 80px);
+    background-color: var(--BG-500);
+    margin: 80px auto;
+    position: relative;
+}
+.CloseModalBtn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 35px;
+    height: 35px;
+    border-radius:50px;
+    border: 1px solid #000;
+    background-color: red;
+    color: #fff;
+    font-size: 1.2rem;
+}

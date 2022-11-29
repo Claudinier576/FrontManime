@@ -8,8 +8,7 @@
 
 main {
     width: 100%;
-    height: calc(100% - 104px);
-    background-color: red;
+    height: calc(100% - 125px);
     overflow-y: auto;
     background-color: var(--BG-500);
 }
@@ -146,5 +145,4 @@ header img {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-
 }

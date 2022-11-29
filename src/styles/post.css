@@ -64,12 +64,15 @@
     cursor: pointer;
     opacity: 0.8;
 }
-.btn_interactions img {
-    width: 25px;
-    height: 25px;
-    filter: invert(1);
+.post__interactions i {
+    font-size: 25px;
+    color: #fff;
 }
 
 .card{
     border-radius: 10px 0 0 10px;
+}
+
+.liked i{
+    color: red;
 }

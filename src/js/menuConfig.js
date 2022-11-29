@@ -21,7 +21,7 @@ btn.addEventListener("click", (e) => {
         menuConfigs.classList.toggle("d-none");
         setTimeout(function () {
             menuConfigs.classList.toggle("openMenu");
-        }, 20);
+        }, 100);
     }
 
 
