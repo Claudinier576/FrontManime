@@ -103,7 +103,7 @@ header img {
 
 
 .MenuConfigs {
-    transition: all 0.3s;
+    transition: all 0.35s ease-in;
     margin-left: 150%;
     width: 100%;
     box-sizing: border-box;

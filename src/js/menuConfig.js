@@ -1,6 +1,6 @@
 let btn = document.querySelector(".btnMenu");
 
-console.log(btn);
+
 btn.addEventListener("click", (e) => {
     let mainContent = document.querySelector(".mainContent");
     let menuConfigs = document.querySelector(".MenuConfigs");
